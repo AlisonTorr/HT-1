@@ -3,9 +3,9 @@ let message;
 
 const input = prompt("введите пароль");
 
-if ((input = null)) {
+if (input === null) {
   message = "Отменено пользователем!";
-} else if ((input = ADMIN_PASSWORD)) {
+} else if (input === ADMIN_PASSWORD) {
   message = "Добро пожаловать!";
 } else {
   message = "Доступ запрещен, неверный пароль!";

@@ -5,7 +5,7 @@ let totalPrice;
 
 const droidNumber = prompt("введите количество дроидов");
 
-if ((droidNumber = null)) {
+if (droidNumber === null) {
   message = "Отменено пользователем";
 } else {
   totalPrice = droidNumber * pricePerDroid;
